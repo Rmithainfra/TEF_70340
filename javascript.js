@@ -50,9 +50,9 @@ var viewer = pannellum.viewer('panorama',{
         "vaov":86,
         "minPitch":-25,
         "maxPitch": 25,
-        "yaw":-8,            //  IF NEEDED CHANGE THE YAW VALUE
+        "yaw":-2,            //  IF NEEDED CHANGE THE YAW VALUE
         "compass":true,
-        "northOffset":8   //  IF NEEDED CHANGE THE NORTHOFFSET VALUE
+        "northOffset":2   //  IF NEEDED CHANGE THE NORTHOFFSET VALUE
     },
     // "image-4":{
     //     "type": "equirectangular",
@@ -154,7 +154,7 @@ function updateDegreeScale() {
     //   "image-360": 0, // GIVE THE YAW VALUE AS IT IS
       "image-1":-3,  // GIVE THE YAW VALUE
       "image-2":-10,  // GIVE THE YAW VALUE
-      "image-3":-8,// GIVE THE YAW VALUE
+      "image-3":-2,// GIVE THE YAW VALUE
     //   "image-4": 0   
     //   "image-5": 0   
     };
